@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Fomulário de Cadastro</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='_css.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h2>Fomulário de Cadastro</h2>
+    <form method="post" >
+        <div>
+            <label for="name"><strong>Nome completo</strong></label>
+            <br>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu Nome">
+        </div>
+
+        <div>
+            <label class="gen"><strong>Gênero</strong></label>
+            <br>
+            <label class="gen">
+                Masculino<input class="gen1" type="radio" name="genero" value="Masculino">
+            </label>
+            <br>
+            <label class="gen">
+                Feminino<input class="gen1" type="radio" name="genero" value="Feminino">
+            </label>
+            <br>
+            <label class="gen">
+                outro<input class="gen1" type="radio" name="genero" value="outro">
+            </label>
+        </div>
+
+        <div>
+            <label for="email"><strong>E-mail</strong></label>
+            <br>
+            <input type="email" name="email" id="email" placeholder="Digite seu email">
+        </div>
+
+        <div>
+            <label for="telefone"><strong>Telefone</strong></label>
+            <br>
+            <input type="number" name="tel" id="tel" placeholder="(00)00000-0000">
+        </div>
+
+        <div>
+            <label for="data"><strong>Data de Nascimento</strong></label>
+            <br>
+            <input type="date" name="data" id="data" placeholder="(00)00000-0000">
+        </div>
+
+        <div>
+            <label for="cpf"><strong>CPF</strong></label>
+            <br>
+            <input type="text" name="cpf" id="cpf" placeholder="000.000.000-1">
+        </div>
+        
+        <div>
+            <label for="cep"><strong>CEP</strong></label>
+            <br>
+            <input type="number" name="cep" id="cep" placeholder="Digite seu CEP">
+        </div>
+
+        <div>
+            <label for="endereco"><strong>Endereço</strong></label>
+            <br>
+            <input type="text" name="endereco" id="endereco" placeholder="Digite seu endereço">
+        </div>
+
+        <div>
+            <label for="numero"><strong>Número</strong></label>
+            <br>
+            <input type="number" name="numero" id="numero" placeholder="945">
+        </div>
+
+        <div>
+            <label for="complemento"><strong>Complemento</strong></label>
+            <br>
+            <input type="text" name="complemento" id="complemento" placeholder="Digite seu endereço">
+        </div>
+
+        <div>
+            <label for="bairro"><strong>Bairro</strong></label>
+            <br>
+            <input type="text" name="bairro" id="bairro" placeholder="Digite seu endereço">
+        </div>
+
+        <div>
+            <label for="cidade"><strong>Cidade</strong></label>
+            <br>
+            <input type="text" name="cidade" id="cidade" placeholder="Exemplo: João Paz">
+        </div>
+
+        <div>
+            <label for="estado"><strong>Estado</strong></label>
+            <br>
+            <input type="text" name="estado" id="estado" placeholder="Parána ou PR">
+        </div>
+
+        <div>
+            <label for="senha"><strong>Senha</strong></label>
+            <br>
+            <input type="password"  id="senha" placeholder="Digite sua senha">
+        </div>
+
+        <div>
+            <label for="senha2"><strong>Confirme a Senha</strong></label>
+                <br>
+            <input type="password"  id="senha2" placeholder="Confirme sua Senha">
+        </div>
+
+        <button type="button" class="botao" onclick="Verifica(event)">Cadastrar</button>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+body{
+    /*background-color:rgb(135, 203, 248);*/
+    font-family: sans-serif, Arial, Helvetica;
+    color: #333333;
+
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    margin: auto;
+    background-color:hsla(204, 100%, 85%, 0.459) ;
+    
+    width: 395px;
+    height: 1000px;
+
+    border: 2px solid black ;
+    border-radius: 25px;
+
+}
+
+div {
+    margin: 15px;
+}
+
+label {
+    text-align: right;
+    display: flex;
+    padding-left: 80px;
+    margin-top: 20px;
+    margin-bottom: -15px;
+}
+
+.gen {
+    margin-top: 2px;
+}
+
+.gen1 {
+    box-shadow: none;
+}
+
+input {
+    width: 200px;
+
+    border: 1.5px solid rgb(6, 79, 97) ;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+input[type="radio"] {
+    width: 20px;
+}
+
+input:focus{
+    background: #8dc0cf;
+    outline: none;
+}
+
+.botao {
+    font-size: 1.2em;
+    background-color: #78abe6;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 0.4em 0.8em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease-in-out, background-color 0.5s ease-in-out;
+    
+}
+
+.botao:hover {
+    background: #75bde0;
+    transform: scale(0.95);
+}
+
+/*
+.botao {
+    font-size: 1.2em;
+    background: #78abe6;
+    border: 0px;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    
+}
+
+.botao:hover {
+    background: #5fc4f3;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+}
+*/
