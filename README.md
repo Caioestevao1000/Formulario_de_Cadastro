@@ -4,9 +4,9 @@ Ensino Med.Téc. no Colégio Marista Ir. Acácio.
 
 ## Cadastro
 É necessário Preencher todas as informações.
-- :heavy_check_mark:Contém: 
-- :heavy_check_mark:Vereficador de campos; é necessário preencher todos os campos corretamente, e
-- :heavy_check_mark:Verificador de CPF; Caso não queira usar seu CPF use o site [www.geradordecpf.org](https://www.geradordecpf.org/) para gerar um CPF válido.
+- :heavy_check_mark: Contém: 
+- :heavy: Vereficador de campos; é necessário preencher todos os campos corretamente, e
+- :heavy: Verificador de CPF; Caso não queira usar seu CPF use o site [www.geradordecpf.org](https://www.geradordecpf.org/) para gerar um CPF válido.
 ![image](https://github.com/Caioestevao1000/Formulario_de_Cadastro/assets/108750017/61314c5b-9e53-4614-a0c3-5b0ed7d26673)
 
 
