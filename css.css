@@ -18,8 +18,9 @@ form {
     margin: auto;
     background-color:hsla(204, 100%, 85%, 0.459) ;
     
-    width: 355px;
+    width: 320px;
     height: 755px;
+    padding-top: 15px ;
 
     border: 2px solid black ;
     border-radius: 25px;
@@ -34,7 +35,7 @@ label {
     display: flex;
     padding-left: 80px;
     margin-top: 20px;
-    margin-bottom: -15px;
+    margin-bottom: 3px;
 }
 
 .gen {
