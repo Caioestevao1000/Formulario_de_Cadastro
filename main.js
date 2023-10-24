@@ -2,13 +2,13 @@ function Verifica(event) {
     event.preventDefault();
   
     let nome              =        document.getElementById('nome').value
-    let genero            =        document.querySelector('input[name="genero"]:checked')
     let email             =        document.getElementById('email').value
+    let c_email           =        document.getElementById('c_email').value
     let telefone          =        document.getElementById('tel').value
     let dataNascimento    =        document.getElementById('data').value
     let cpf               =        document.getElementById('cpf').value
     let cep               =        document.getElementById('cep').value
-    let endereco          =        document.getElementById('endereco').value
+    let logradouro        =        document.getElementById('logradouro').value
     let numero            =        document.getElementById('numero').value
     let complemento       =        document.getElementById('complemento').value
     let bairro            =        document.getElementById('bairro').value
@@ -17,7 +17,7 @@ function Verifica(event) {
     let senha             =        document.getElementById('senha').value
     let confirmarSenha    =        document.getElementById('senha2').value
 
-    if (!nome || !genero || !email || !telefone || !dataNascimento || !cpf || !cep || !endereco || !numero || !complemento || !bairro || !cidade || !estado || !senha || !confirmarSenha) {
+    if (!nome || !c_email || !email || !telefone || !dataNascimento || !cpf || !cep || !logradouro || !numero || !complemento || !bairro || !cidade || !estado || !senha || !confirmarSenha) {
       alert("Preencha todos os campos corretamente!")
     } else if (!validaCPF(cpf)) {
       alert("CPF inválido.")
