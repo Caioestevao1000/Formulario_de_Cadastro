@@ -39,6 +39,7 @@
     document.getElementById('cep').addEventListener("focusout", pesquisarCEP);
 
 
+//VERIFICAÇÃO DO PREENCHIMENTO DOS CAMPOS
 function Verifica(event) { 
     event.preventDefault();
   
@@ -59,7 +60,7 @@ function Verifica(event) {
     let confirmarSenha    =        document.getElementById('senha2').value
 
   
-    if (!nome || !email || !c_email || !celular || !dataNascimento || !cpf || !cep || !rua || !numero || !complemento || !bairro || !cidade || !estado || !senha || !confirmarSenha) {
+    if (!nome || !email || !c_email || !celular || !dataNascimento || !cpf || !cep || !rua || !numero || !bairro || !cidade || !estado || !senha || !confirmarSenha) {
       alert("Preencha todos os campos corretamente!")
     //} else if (!validaCPF(cpf)) {
     //  alert("CPF inválido.")
@@ -75,6 +76,7 @@ function Verifica(event) {
     }
     
 } 
+    //VALIDAÇÃO DO CPF
     /*function validaCPF(cpf) {
         cpf = cpf.replace(/[^\d]+/g,'')
       
