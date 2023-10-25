@@ -1,14 +1,64 @@
+'use strict'; //Mode Strict ou Modo restrito
+
+// API - https://viacep.com.br
+    
+    //  Função para limpar formulário
+    //  Arrow Function
+    /*
+    const limparFomulario = () => {
+        document.getElementById('rua').value = '';
+        document.getElementById('bairro').value = '';
+        document.getElementById('cidade').value = '';
+        document.getElementById('estado').value = '';
+    }*/
+    
+    //  Verifica se CEP é válido
+    const eNumero = (numero) => /^[0-9]+$/.test(numero) 
+    const cepValido = (cep) => cep.length == 8 && eNumero(cep);
+    
+    //  Responsavel pelo preenchimento do formulário
+    const preencherFormulario = (endereco) => {
+        document.getElementById('rua').value = endereco.logradouro;
+        document.getElementById('bairro').value = endereco.bairro;
+        document.getElementById('cidade').value = endereco.localidade;
+        document.getElementById('estado').value = endereco.uf;
+    }
+    
+    //  Função para consumo de API da VIACEP
+    const pesquisarCEP = async() => {
+      //limparFomulario();
+        const url = `http://viacep.com.br/ws/${cep.value}/json/`;
+    
+        if(cepValido(cep.value)){
+            const dados = await fetch(url); 
+            const address = await dados.json(); 
+    
+            if(address.hasOwnProperty('erro')){ 
+                alert("CEP não encontrado");
+            }else{
+                preencherFormulario(address);
+            }
+        }else{
+            alert("CEP incorreto");
+        }
+    }
+  
+    //  Adciona um evento DOM no input do CEP
+    document.getElementById('cep').addEventListener('focusout', pesquisarCEP);
+
+
+
 function Verifica(event) { 
     event.preventDefault();
   
     let nome              =        document.getElementById('nome').value
     let email             =        document.getElementById('email').value
     let c_email           =        document.getElementById('c_email').value
-    let telefone          =        document.getElementById('tel').value
+    let celular           =        document.getElementById('cel').value
     let dataNascimento    =        document.getElementById('data').value
     let cpf               =        document.getElementById('cpf').value
     let cep               =        document.getElementById('cep').value
-    let logradouro        =        document.getElementById('logradouro').value
+    let rua               =        document.getElementById('rua').value
     let numero            =        document.getElementById('numero').value
     let complemento       =        document.getElementById('complemento').value
     let bairro            =        document.getElementById('bairro').value
@@ -17,13 +67,16 @@ function Verifica(event) {
     let senha             =        document.getElementById('senha').value
     let confirmarSenha    =        document.getElementById('senha2').value
 
-    if (!nome || !c_email || !email || !telefone || !dataNascimento || !cpf || !cep || !logradouro || !numero || !complemento || !bairro || !cidade || !estado || !senha || !confirmarSenha) {
+  
+    if (!nome || !email || !c_email || !celular || !dataNascimento || !cpf || !cep || !rua || !numero || !complemento || !bairro || !cidade || !estado || !senha || !confirmarSenha) {
       alert("Preencha todos os campos corretamente!")
-    } else if (!validaCPF(cpf)) {
-      alert("CPF inválido.")
-      return false
+    //} else if (!validaCPF(cpf)) {
+    //  alert("CPF inválido.")
+    //  return false
     } else if (senha != confirmarSenha) {
       alert("As senhas não são iguais.")
+    } else if (email != c_email) {
+      alert("E-mails diferentes.")
     } else {
       alert("Cadastro realizado com sucesso!")
       window.location.href = "sucesso.html"
@@ -31,7 +84,7 @@ function Verifica(event) {
     }
     
 } 
-    function validaCPF(cpf) {
+    /*function validaCPF(cpf) {
         cpf = cpf.replace(/[^\d]+/g,'')
       
         if (cpf.length !== 11 || cpf === "00000000000" || cpf === "11111111111" || cpf === "22222222222" || cpf === "33333333333" || cpf === "44444444444" || cpf === "55555555555" || cpf === "66666666666" || cpf === "77777777777" || cpf === "88888888888" || cpf === "99999999999") {
@@ -58,5 +111,4 @@ function Verifica(event) {
           return false
         }
         return true
-    }
-
+    }*/

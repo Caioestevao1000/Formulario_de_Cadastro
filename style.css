@@ -20,10 +20,10 @@ form {
     
     width: 320px;
     height: 755px;
-    padding-top: 15px ;
 
     border: 2px solid black ;
     border-radius: 25px;
+
 }
 
 div {
@@ -35,7 +35,7 @@ label {
     display: flex;
     padding-left: 80px;
     margin-top: 20px;
-    margin-bottom: 3px;
+    margin-bottom: -15px;
 }
 
 .gen {
@@ -54,14 +54,14 @@ input {
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
 }
 
-/*input[type="radio"] {
+input[type="radio"] {
     width: 20px;
 }
 
 input:focus{
     background: #8dc0cf;
     outline: none;
-}*/
+}
 
 .botao {
     font-size: 1.2em;
@@ -73,11 +73,12 @@ input:focus{
     padding: 0.4em 0.8em;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.15);
     transition: transform 0.3s ease-in-out, background-color 0.5s ease-in-out;
+    
 }
 
 .botao:hover {
-    background: #75bde0;
-    transform: scale(0.95);
+    background: #75ef73;
+    transform: scale(1);
 }
 
 /*
@@ -87,7 +88,8 @@ input:focus{
     border: 0px;
     color: #ffffff;
     padding: 0.2em 0.6em;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);   
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    
 }
 
 .botao:hover {

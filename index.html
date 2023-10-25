@@ -5,96 +5,114 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Fomulário de Cadastro</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='css.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='main.js'></script>
 </head>
 <body>
-
+    
     <h2>Fomulário de Cadastro</h2>
 
     <form method="post" >
+
         <div>
-            <label for="name"></label>
+            <label for="inputname"></label>
+            <br>
             <input type="text" name="nome" id="nome" placeholder="NOME">
         </div>
 
         <div>
-            <label for="s_name"></label>
+            <label for="inputs_name"></label>
+            <br>
             <input type="text" name="s_nome" id="s_nome" placeholder="SOBRENOME">
         </div>
 
         <div>
-            <label for="data"></label>
+            <label for="inputdata"></label>
+            <br>
             <input type="date" name="data" id="data" placeholder="DATA DE NASCIMENTO">
         </div>
 
         <div>
-            <label for="cpf"></label>
+            <label for="cinputpf"></label>
+            <br>
             <input type="text" name="cpf" id="cpf" placeholder="CPF">
         </div>
 
         <div>
-            <label for="telefone"></label>
-            <input type="number" name="tel" id="tel" placeholder="CELULAR">
+            <label for="inputcelular"></label>
+            <br>
+            <input type="number" name="cel" id="cel" placeholder="CELULAR">
         </div>
 
         <div>
-            <label for="email"></label>
+            <label for="inputemail"></label>
+            <br>
             <input type="email" name="email" id="email" placeholder="E-MAIL">
         </div>
 
         <div>
-            <label for="c_email"></label>
-            <input type="email" name="c_email" id="c_email" placeholder="CONFIRMAR E-MAIL">
+            <label for="inputc_email"></label>
+            <br>
+            <input type="email" name="c_email" id="c_email" placeholder="CONFIRME SEU E-MAIL">
         </div>
         
         <div>
-            <label for="cep"></label>
-            <input type="number" name="cep" id="cep" placeholder="CEP">
+            <label for="inputcep"></label>
+            <br>
+            <input name="cep" id="cep" placeholder="CEP">
         </div>
 
         <div>
-            <label for="logradouro"></label>
-            <input type="text" name="endereco" id="endereco" placeholder="LOGRADOURO">
+            <label for="inputrua"></label>
+            <br>
+            <input name="rua" id="rua" placeholder="LOGRADOURO">
         </div>
 
         <div>
-            <label for="numero"></label>
+            <label for="inputnumero"></label>
+            <br>
             <input type="number" name="numero" id="numero" placeholder="N°">
         </div>
 
         <div>
-            <label for="complemento"></label>
+            <label for="inputbairro"></label>
+            <br>
+            <input name="bairro" id="bairro" placeholder="BAIRRO">
+        </div>
+
+        <div>
+            <label for="inputcidade"></label>
+            <br>
+            <input name="cidade" id="cidade" placeholder="CIDADE">
+        </div>
+
+        <div>
+            <label for="inputestado"></label>
+            <br>
+            <input name="estado" id="estado" placeholder="ESTADO">
+        </div>
+
+        <div>
+            <label for="inputcomplemento"></label>
+            <br>
             <input type="text" name="complemento" id="complemento" placeholder="COMPLEMENTO">
         </div>
 
         <div>
-            <label for="bairro"></label>
-            <input type="text" name="bairro" id="bairro" placeholder="BAIRRO">
-        </div>
-
-        <div>
-            <label for="cidade"></label>
-            <input type="text" name="cidade" id="cidade" placeholder="CIDADE">
-        </div>
-
-        <div>
-            <label for="estado"></label>
-            <input type="text" name="estado" id="estado" placeholder="ESTADO">
-        </div>
-
-        <div>
-            <label for="senha"></label>
+            <label for="inputsenha"></label>
+            <br>
             <input type="password"  id="senha" placeholder="SENHA">
         </div>
 
         <div>
-            <label for="senha2"></label>
+            <label for="inputsenha2"></label>
+                <br>
             <input type="password"  id="senha2" placeholder="CONFIRME SUA SENHA">
         </div>
 
         <button type="button" class="botao" onclick="Verifica(event)">Cadastrar</button>
 
     </form>
+
 </body>
 </html>
