@@ -106,7 +106,7 @@ No final, você terá um resultado parecido com esse...
 ### Sucesso
 ![tela_de_sucesso](https://github.com/Caioestevao1000/Formulario_de_Cadastro/assets/108750017/a0c40f80-15bf-4477-83c4-3245735c8474)
 Após realizado o cadastro, você parará na página de Sucesso!
-![sucesso](https://github.com/Caioestevao1000/Formulario_de_Cadastro/assets/108750017/103ac2e8-f427-4f52-ae0d-3570fe020293)
+<!--![sucesso](https://github.com/Caioestevao1000/Formulario_de_Cadastro/assets/108750017/103ac2e8-f427-4f52-ae0d-3570fe020293)-->
 
 ## 🖥Tecnologias Utilizadas
 - :heavy_check_mark: [HTML5]
