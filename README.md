@@ -12,7 +12,7 @@ Foi pesquisado sites de e-commerces para a comparação de campos e funcionalida
  2- [Amazon](https://www.amazon.com.br/ap/register?showRememberMe=true&openid.pape.max_auth_age=3600&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&siteState=clientContext%3D000-0000000-0000000%2CsourceUrl%3Dhttps%253A%252F%252Fwww.amazon.com.br%252Fgc%252Fredeem%2Csignature%3DEk4KGQJwzfzbOlTPFarDOxRRLCAj3D&marketPlaceId=A2Q3Y263D00KWC&pageId=amzn_gcfront_v2_br&mobileBrowserWeblabTreatment=C&openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fgc%2Fredeem&prevRID=QCC8MMNS2BAPS9VV19FJ&openid.assoc_handle=amzn_gcfront_v2_br&openid.mode=checkid_setup&desktopBrowserWeblabTreatment=C&prepopulatedLoginId=&failedSignInCount=0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0)  
  3- [AliExpress](https://login.aliexpress.com/?return_url=http%3A%2F%2Freport.aliexpress.com%2F)
 
-Nos últimos dois sites, foi identificado a pouca quantidades de campos para informações, possívelmente pela razão de que o usuário poderia desistisse do cadastro. Porém, foi seguido a tela de cadastro da Terabyte. 
+Nos últimos dois sites, foi identificado a pouca quantidades de campos para informações, possívelmente pela razão de que o usuário poderia desistir do cadastro. Porém, foi seguido a tela de cadastro da Terabyte. 
 
 ## 🛠️Funcionalidades
 O Formulário contém algumas funcionalidades de verificação e confirmação.
