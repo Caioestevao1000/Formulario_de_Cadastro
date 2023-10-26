@@ -8,9 +8,11 @@ Nesta versão do projeto foi adicionado o campo de ```Confirmação de Email``` 
 
 Foi pesquisado sites de e-commerces para a comparação de campos e funcionalidades, assim podendo identificar possíveis diferenças, os sites observados foram: 
 
- 1-[Terabyteshop](https://www.terabyteshop.com.br/Cadastro.obj)  
- 2-[Americanas](https://cliente.americanas.com.br/minha-conta/cadastro?next=https://www.americanas.com.br/)  
- 3-[AliExpress](https://login.aliexpress.com/?return_url=http%3A%2F%2Freport.aliexpress.com%2F)
+ 1- [Terabyteshop](https://www.terabyteshop.com.br/Cadastro.obj)  
+ 2- [Amazon](https://www.amazon.com.br/ap/register?showRememberMe=true&openid.pape.max_auth_age=3600&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&siteState=clientContext%3D000-0000000-0000000%2CsourceUrl%3Dhttps%253A%252F%252Fwww.amazon.com.br%252Fgc%252Fredeem%2Csignature%3DEk4KGQJwzfzbOlTPFarDOxRRLCAj3D&marketPlaceId=A2Q3Y263D00KWC&pageId=amzn_gcfront_v2_br&mobileBrowserWeblabTreatment=C&openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fgc%2Fredeem&prevRID=QCC8MMNS2BAPS9VV19FJ&openid.assoc_handle=amzn_gcfront_v2_br&openid.mode=checkid_setup&desktopBrowserWeblabTreatment=C&prepopulatedLoginId=&failedSignInCount=0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0)  
+ 3- [AliExpress](https://login.aliexpress.com/?return_url=http%3A%2F%2Freport.aliexpress.com%2F)
+
+Nos últimos dois sites, foi identificado a pouca quantidades de campos para informações, possívelmente pela razão de que o usuário poderia desistisse do cadastro. Porém, foi seguido a tela de cadastro da Terabyte. 
 
 ## 🛠️Funcionalidades
 O Formulário contém algumas funcionalidades de verificação e confirmação.
@@ -48,7 +50,7 @@ Caso o Cep não seja válido, ele apresentará um ```alert``` de "CEP não Encon
                 document.getElementById('cidade').value = endereco.localidade;
                 document.getElementById('estado').value = endereco.uf;
             }
-Se o CEP for válido, ocorrerá o preenchimento automatico dos campos ligados ao CEP.  
+Se o CEP for válido, ocorrerá o preenchimento automático dos campos ligados ao CEP.  
 
 3 - Verificação dos Campos e validação de senha/email
 
@@ -95,20 +97,23 @@ Aqui é feito a verificação dos campos e confirmação do email e da senha. Ca
 É necessário Preencher todas as informações.
 - :heavy_check_mark: Contém: 
 - Vereficador de campos; é necessário preencher todos os campos corretamente;
-- Verificador de CPF; Caso não queira usar seu CPF use o site [www.geradordecpf.org](https://www.geradordecpf.org/) para gerar um CPF válido. 
+- Verificador de CEP; Caso, não queira usar seu CEP use o site: [4devsferramentasoline](https://www.4devs.com.br/gerador_de_cep) para gerar um CEP válido.
+OBS: Use o CEP sem pontuação.
 - Campos de Confirmação de senhas e email: Nesses campos é necessário que a senha e email estejam iguais.
 
 ### Sucesso
-Após realizado o cadastro, você irá parar na página de Sucesso!
-![sucessodocadastro](https://github.com/Caioestevao1000/Formulario_de_Cadastro/assets/108750017/a581a44b-4a10-4aa8-82b9-79a6173bf65c)
-
+Após realizado o cadastro, você para na página de Sucesso!
+![sucesso](https://github.com/Caioestevao1000/Formulario_de_Cadastro/assets/108750017/103ac2e8-f427-4f52-ae0d-3570fe020293)
 
 ## 🖥Tecnologias Utilizadas
-| **HTML**        |
-| **CSS**         |
-| **JavaScript**  |
-| **GIT**         |
+| **HTML**        |  
+| **CSS**         |  
+| **JavaScript**  |  
+| **GIT**         | 
+
+## Implementações Futuras
+M
 
 ## Autores
 - Caio Estevão
-- [github.com](https://github.com/Caioestevao1000)
+  [github.com](https://github.com/Caioestevao1000)
