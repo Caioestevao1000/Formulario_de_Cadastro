@@ -114,7 +114,7 @@ Após realizado o cadastro, você parará na página de Sucesso!
 - :heavy_check_mark: [JS]
 - :heavy_check_mark: [GIT]
 
-## Objetivos Futuras
+## Objetivos Futuros
 Após essa atividade de Programação Web, um dos objetivos será a melhoria desse projeto, tentando replicar funcionalidades/ações da tela de cadastro da Terabyteshop.
 
 ## Autores
