@@ -100,6 +100,7 @@ Aqui é feito a verificação dos campos e confirmação do email e da senha. Ca
 - Verificador de CEP; Caso, não queira usar seu CEP use o site: [4devsferramentasoline](https://www.4devs.com.br/gerador_de_cep) para gerar um CEP válido.
 OBS: Use o CEP sem pontuação.
 - Campos de Confirmação de senhas e email: Nesses campos é necessário que a senha e email estejam iguais.
+No final, você terá um resultado parecido com esse...
 ![gifcadastro](https://github.com/Caioestevao1000/Formulario_de_Cadastro/assets/108750017/81c86f9d-bece-4782-8a90-bc5a627ca62f)
 
 ### Sucesso
