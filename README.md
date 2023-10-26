@@ -105,14 +105,16 @@ OBS: Use o CEP sem pontuação.
 Após realizado o cadastro, você para na página de Sucesso!
 ![sucesso](https://github.com/Caioestevao1000/Formulario_de_Cadastro/assets/108750017/103ac2e8-f427-4f52-ae0d-3570fe020293)
 
-## 🖥Tecnologias Utilizadas
-| **HTML**        |  
-| **CSS**         |  
-| **JavaScript**  |  
-| **GIT**         | 
+## 
+| 🖥Tecnologias Utilizadas |
+| ---------- --------- |
+| **Html**         |
+|  **Css**         |
+|  **Javascript**  |
+|  **Bootstrap**   |
 
 ## Implementações Futuras
-M
+
 
 ## Autores
 - Caio Estevão
