@@ -118,5 +118,5 @@ Após realizado o cadastro, você parará na página de Sucesso!
 Após essa atividade de Programação Web, um dos objetivos será a melhoria desse projeto, tentando replicar funcionalidades/ações da tela de cadastro da Terabyteshop.
 
 ## Autor
-- Caio Estevão
+- Caio Estevão -
   [github.com](https://github.com/Caioestevao1000)
