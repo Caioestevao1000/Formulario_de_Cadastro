@@ -16,10 +16,11 @@ h2 {
 form {
     text-align: center;
     margin: auto;
+    padding-top: 8px;
     background-color:hsla(204, 100%, 85%, 0.459) ;
     
     width: 320px;
-    height: 755px;
+    height: 758px;
 
     border: 2px solid black ;
     border-radius: 25px;
@@ -30,20 +31,21 @@ div {
     margin: 15px;
 }
 
+/*.gen {
+    margin-top: 2px;
+}
+
+.gen1 {
+    box-shadow: none;
+}
+*/
+
 label {
     text-align: right;
     display: flex;
     padding-left: 80px;
     margin-top: 20px;
     margin-bottom: -15px;
-}
-
-.gen {
-    margin-top: 2px;
-}
-
-.gen1 {
-    box-shadow: none;
 }
 
 input {

@@ -16,7 +16,7 @@
         document.getElementById('cidade').value = endereco.localidade;
         document.getElementById('estado').value = endereco.uf;
     }
-    
+
     //  Função para consumo de API da VIACEP
     const pesquisarCEP = async() => {
         const url = `https://viacep.com.br/ws/${cep.value}/json/`;
@@ -34,7 +34,7 @@
             alert("CEP incorreto");
         }
     }
-  
+
     //  Adciona um evento DOM no input do CEP
     document.getElementById('cep').addEventListener("focusout", pesquisarCEP);
 
@@ -59,12 +59,12 @@ function Verifica(event) {
     let senha             =        document.getElementById('senha').value
     let confirmarSenha    =        document.getElementById('senha2').value
 
-  
-    if (!nome || !email || !c_email || !celular || !dataNascimento || !cpf || !cep || !rua || !numero || !bairro || !cidade || !estado || !senha || !confirmarSenha) {
+
+    if (!nome || !email || !c_email || !celular || !dataNascimento || !cpf || !cep || !rua || !numero || !complemento || !bairro || !cidade || !estado || !senha || !confirmarSenha) {
       alert("Preencha todos os campos corretamente!")
-    //} else if (!validaCPF(cpf)) {
-    //  alert("CPF inválido.")
-    //  return false
+    } else if (!validaCPF(cpf)) {
+    alert("CPF inválido.")
+    return false
     } else if (senha != confirmarSenha) {
       alert("As senhas não são iguais.")
     } else if (email != c_email) {
@@ -74,10 +74,10 @@ function Verifica(event) {
       window.location.href = "sucesso.html"
       return true
     }
-    
 } 
+
     //VALIDAÇÃO DO CPF
-    /*function validaCPF(cpf) {
+      function validaCPF(cpf) {
         cpf = cpf.replace(/[^\d]+/g,'')
       
         if (cpf.length !== 11 || cpf === "00000000000" || cpf === "11111111111" || cpf === "22222222222" || cpf === "33333333333" || cpf === "44444444444" || cpf === "55555555555" || cpf === "66666666666" || cpf === "77777777777" || cpf === "88888888888" || cpf === "99999999999") {
@@ -104,4 +104,4 @@ function Verifica(event) {
           return false
         }
         return true
-    }*/
+      }
