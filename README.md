@@ -1,6 +1,6 @@
 # Formulário_de_Cadastro
 Fomúlario de Cadastro da atividade de Programação Web. 
-Ensino Médio Téc. Colégio Marista Ir. Acácio.
+Escola Social Marista Ir. Acácio - Ensino Médio Técnico.
 ![Capa](doc/FormCad.jpg)
 
 ## Sobre o Projeto
@@ -96,7 +96,7 @@ Aqui é feito a verificação dos campos e confirmação do email e da senha. Ca
 ### Cadastro
 É necessário Preencher todas as informações.
 - :heavy_check_mark: Contém: 
-- Vereficador de campos; é necessário preencher todos os campos corretamente;
+- Verificador de campos; é necessário preencher todos os campos corretamente;
 - Verificador de CEP; Caso, não queira usar seu CEP use o site: [4devsferramentasoline](https://www.4devs.com.br/gerador_de_cep) para gerar um CEP válido.
 OBS: Use o CEP sem pontuação.
 - Campos de Confirmação de senhas e email: Nesses campos é necessário que a senha e email estejam iguais.
