@@ -62,9 +62,9 @@ function Verifica(event) {
 
     if (!nome || !email || !c_email || !celular || !dataNascimento || !cpf || !cep || !rua || !numero || !complemento || !bairro || !cidade || !estado || !senha || !confirmarSenha) {
       alert("Preencha todos os campos corretamente!")
-    } else if (!validaCPF(cpf)) {
+    /*} else if (!validaCPF(cpf)) {
     alert("CPF inválido.")
-    return false
+    return false*/
     } else if (senha != confirmarSenha) {
       alert("As senhas não são iguais.")
     } else if (email != c_email) {
