@@ -74,7 +74,6 @@ Se o CEP for válido, ocorrerá o preenchimento automático dos campos ligados a
             let senha             =        document.getElementById('senha').value
             let confirmarSenha    =        document.getElementById('senha2').value
 
-
             if (!nome || !email || !c_email || !celular || !dataNascimento || !cpf || !cep || !rua || !numero || !bairro || !cidade || !estado || !senha || !confirmarSenha) {
             alert("Preencha todos os campos corretamente!")
             //} else if (!validaCPF(cpf)) {
@@ -90,7 +89,7 @@ Se o CEP for válido, ocorrerá o preenchimento automático dos campos ligados a
             return true
             }
         }
-![erros](https://github.com/Caioestevao1000/Formulario_de_Cadastro/assets/108750017/bf045873-b38d-4702-a402-5b979a8e2d30)
+![erros](https://github.com/Caioestevao1000/Formulario_de_Cadastro/assets/108750017/bf045873-b38d-4702-a402-5b979a8e2d30)  
 Aqui é feito a verificação dos campos e confirmação do email e da senha. Caso, haja alguma diferença nos dois campos de senha e email, o JS irá retornar um ```alert("As senhas não são iguais.")```. Também, se faltar algo a ser preenchido, aparecerá ```alert("Preencha todos os campos corretamente!")```. Se tudo estiver nos conformes, o usuário será redirecionado para a página de ```sucesso.html```.  
 
 ### Cadastro
