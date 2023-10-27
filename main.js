@@ -75,8 +75,8 @@ function Verifica(event) {
       return true
     }
 } 
-
-    //VALIDAÇÃO DO CPF
+    /*
+    VALIDAÇÃO DO CPF
       function validaCPF(cpf) {
         cpf = cpf.replace(/[^\d]+/g,'')
       
@@ -105,3 +105,4 @@ function Verifica(event) {
         }
         return true
       }
+*/
