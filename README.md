@@ -1,5 +1,5 @@
 # Formulário_de_Cadastro
-Fomúlario de Cadastro da atividade de Programação Web. 
+Fomulário de Cadastro da atividade de Programação Web. 
 Escola Social Marista Ir. Acácio - Ensino Médio Técnico.
 ![Capa](doc/FormCad.jpg)
 
